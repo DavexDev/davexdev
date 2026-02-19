@@ -1,10 +1,15 @@
 import type { Metadata } from "next";
+import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+});
 
 export const metadata: Metadata = {
   title: "davexdev",
-  description: "Portafolio profesional en construcción",
+  description: "Portafolio profesional de desarrollo web",
 };
 
 export default function RootLayout({
@@ -14,8 +19,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body className="bg-black text-white antialiased">
-        <Navbar />
+      <body
+        className={`${inter.variable} font-sans bg-black text-white antialiased`}
+      >
         {children}
       </body>
     </html>
