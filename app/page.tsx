@@ -3,7 +3,7 @@ export default function Home() {
     <main className="bg-black text-white">
       {/* ================= HERO ================= */}
       <section className="min-h-screen flex items-center justify-center px-6">
-        <div className="max-w-3xl text-center space-y-8">
+        <div className="max-w-3xl text-center space-y-8 animate-fade-up">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
             Deyvi Xol
           </h1>
@@ -16,14 +16,14 @@ export default function Home() {
           <div className="flex justify-center gap-6 pt-4">
             <a
               href="#evolution"
-              className="px-6 py-3 border border-white text-xs uppercase tracking-widest hover:bg-white hover:text-black transition"
+              className="px-6 py-3 border border-white text-xs uppercase tracking-widest transition-all duration-300 hover:bg-white hover:text-black"
             >
               Evolución
             </a>
 
             <a
               href="#projects"
-              className="px-6 py-3 border border-neutral-600 text-xs uppercase tracking-widest hover:border-white transition"
+              className="px-6 py-3 border border-neutral-600 text-xs uppercase tracking-widest transition-all duration-300 hover:border-white"
             >
               Proyectos
             </a>
@@ -36,7 +36,7 @@ export default function Home() {
         id="evolution"
         className="py-32 px-6 border-t border-neutral-800"
       >
-        <div className="max-w-4xl mx-auto space-y-16">
+        <div className="max-w-4xl mx-auto space-y-16 animate-fade-up">
           <h2 className="text-3xl md:text-4xl font-bold">
             Evolución
           </h2>
@@ -52,7 +52,10 @@ export default function Home() {
               ["Siguiente nivel", "Escalabilidad y calidad",
                 "Profundización en TypeScript, testing, optimización y automatización de procesos."]
             ].map(([stage, title, desc]) => (
-              <div key={stage}>
+              <div
+                key={stage}
+                className="transition-transform duration-300 hover:translate-x-1"
+              >
                 <span className="text-xs uppercase tracking-widest text-neutral-500">
                   {stage}
                 </span>
@@ -73,7 +76,7 @@ export default function Home() {
         id="stack"
         className="py-32 px-6 border-t border-neutral-800"
       >
-        <div className="max-w-4xl mx-auto space-y-16">
+        <div className="max-w-4xl mx-auto space-y-16 animate-fade-up">
           <h2 className="text-3xl md:text-4xl font-bold">
             Stack técnico
           </h2>
@@ -89,7 +92,10 @@ export default function Home() {
               ["Git & control de versiones",
                 "Commits con intención, historial claro y flujo de trabajo ordenado como base de cualquier proyecto serio."]
             ].map(([title, desc]) => (
-              <div key={title}>
+              <div
+                key={title}
+                className="transition-transform duration-300 hover:-translate-y-1"
+              >
                 <h3 className="text-xl font-semibold mb-3">
                   {title}
                 </h3>
@@ -107,12 +113,12 @@ export default function Home() {
         id="projects"
         className="py-32 px-6 border-t border-neutral-800"
       >
-        <div className="max-w-4xl mx-auto space-y-16">
+        <div className="max-w-4xl mx-auto space-y-16 animate-fade-up">
           <h2 className="text-3xl md:text-4xl font-bold">
             Proyectos
           </h2>
 
-          <div className="border border-neutral-800 p-8 space-y-6">
+          <div className="border border-neutral-800 p-8 space-y-6 transition-all duration-300 hover:border-white">
             <h3 className="text-2xl font-semibold">
               Digital Care
             </h3>
@@ -138,7 +144,7 @@ export default function Home() {
         id="contact"
         className="py-32 px-6 border-t border-neutral-800"
       >
-        <div className="max-w-3xl mx-auto text-center space-y-10">
+        <div className="max-w-3xl mx-auto text-center space-y-10 animate-fade-up">
           <h2 className="text-3xl md:text-4xl font-bold">
             Contacto
           </h2>
@@ -149,28 +155,14 @@ export default function Home() {
           </p>
 
           <div className="flex justify-center gap-6 text-xs uppercase tracking-widest">
-            <a
-              href="https://github.com/davexdev"
-              target="_blank"
-              className="border border-neutral-600 px-6 py-3 hover:border-white transition"
-            >
-              GitHub
-            </a>
-
-            <a
-              href="https://www.linkedin.com"
-              target="_blank"
-              className="border border-neutral-600 px-6 py-3 hover:border-white transition"
-            >
-              LinkedIn
-            </a>
-
-            <a
-              href="mailto:xdave418@gmail.com"
-              className="border border-neutral-600 px-6 py-3 hover:border-white transition"
-            >
-              Email
-            </a>
+            {["GitHub", "LinkedIn", "Email"].map((label) => (
+              <span
+                key={label}
+                className="border border-neutral-600 px-6 py-3 transition-all duration-300 hover:border-white hover:scale-105 cursor-pointer"
+              >
+                {label}
+              </span>
+            ))}
           </div>
         </div>
       </section>
