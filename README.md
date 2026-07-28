@@ -1,132 +1,25 @@
-# DavexDev
+# Deyvi Xol (DavexDev)
 
+Desarrollador Web Jr. y Técnico de Soporte, estudiante de Ingeniería en Sistemas en Guatemala.
+
+Portafolio: [davexdev.github.io](https://davexdev.github.io/) · Contacto: [xdave418@gmail.com](mailto:xdave418@gmail.com) · [LinkedIn](https://www.linkedin.com/in/deyvi-joel-xol-chiquin-644025370)
+
+![React](https://img.shields.io/badge/React-000?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-000?style=for-the-badge&logo=laravel&logoColor=FF2D20)
+![Node.js](https://img.shields.io/badge/Node.js-000?style=for-the-badge&logo=nodedotjs&logoColor=339933)
+![TypeScript](https://img.shields.io/badge/TypeScript-000?style=for-the-badge&logo=typescript&logoColor=3178C6)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-000?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000?style=for-the-badge&logo=postgresql&logoColor=4169E1)
 
----
+## Proyectos en producción
 
-## Portafolio Profesional
+- **[Enervisa](https://enervia.com.gt/)** — sitio corporativo para empresa de ingeniería eléctrica. Laravel 12, Tailwind, Three.js.
+- **[SCADA](https://scada.com.gt/)** — plataforma SaaS de dominios, hosting y herramientas digitales para negocios en Guatemala. Laravel 13, Filament.
+- **[Piuma](https://piums.io/)** — marketplace de Economía Naranja para artistas y clientes. Next.js 14, Node.js/TypeScript, Prisma.
 
-Desarrollo web enfocado en **criterio técnico**, **arquitectura limpia** y **evolución real como desarrollador**.
+El resto de proyectos (académicos, personales y mini juegos) está documentado en el [portafolio](https://davexdev.github.io/).
 
-Este portafolio no busca cantidad, sino **madurez en decisiones** y **buenas prácticas desde el inicio**. Está diseñado para ser mostrado a reclutadores, mentores y desarrolladores — no como ejercicio académico.
+## Stack
 
----
-
-## Filosofía de Trabajo
-
-| Principio | Descripción |
-|-----------|-------------|
-| **Criterio Técnico** | Decisiones basadas en requerimientos reales, no en tendencias |
-| **Orden en Construcción** | Base → Contenido → Pulido. Sin atajos |
-| **Código Claro** | Legible, mantenible, escalable |
-| **Versionado Limpio** | Commits semánticos que cuentan una historia |
-| **Sin Innecesarios** | Cero dependencias superfluas |
-
----
-
-## Stack Técnico
-
-- **Framework**: Next.js (App Router)
-- **Lenguaje**: TypeScript (type-safe)
-- **Estilos**: Tailwind CSS (utility-first)
-- **Tipografía**: Inter (next/font)
-- **Control de Versiones**: Git + GitHub
-- **Deploy**: Optimizado para producción
-
----
-
-## Estructura del Portafolio
-
-### 1. Hero
-Presentación clara y directa del rol, especialidad y enfoque profesional.
-
-### 2. Evolución Técnica
-Progreso documentado por etapas, con énfasis en aprendizaje real y criterio en decisiones.
-
-### 3. Stack Técnico
-Tecnologías utilizadas con **justificación**, no como lista genérica.
-
-### 4. Proyectos
-**Digital Care** — Proyecto principal presentado como producto real, no como demo académico.
-
-### 5. Contacto
-Canales claros y profesionales. Sin formularios innecesarios.
-
----
-
-## Diseño y Experiencia
-
-- **Estilo**: Sobrio y minimalista
-- **Ritmo Visual**: Controlado, sin saturación
-- **Tipografía**: Optimizada para lectura sostenida
-- **Interacciones**: Animaciones sutiles, micro-interacciones sin distracción
-- **Rendimiento**: Optimizado para velocidad
-
----
-
-## Estructura del Proyecto
-
-```
-app/
-├── layout.tsx
-├── page.tsx
-└── globals.css
-
-components/
-├── Navbar.tsx
-└── [otros componentes]
-
-public/
-└── [activos]
-```
-
-*El refactor a componentes se realizará cuando el diseño esté completamente cerrado.*
-
----
-
-## Ejecución Local
-
-### Instalar dependencias
-```bash
-npm install
-```
-
-### Ejecutar desarrollo
-```bash
-npm run dev
-```
-
-### Acceder
-```
-http://localhost:3000
-```
-
----
-
-## Estado Actual
-
-- [x] Base técnica sólida
-- [x] Diseño definido
-- [x] Narrativa clara
-- [x] Animaciones sutiles
-- [x] Historial Git limpio
-- [ ] Refactor a componentes (pendiente)
-- [ ] Deploy a producción
-
----
-
-## Autor
-
-**Deyvi Xol**  
-Desarrollador Web  
-📧 [xdave418@gmail.com](mailto:xdave418@gmail.com)  
-🔗 [GitHub](https://github.com/davexdev)
-
----
-
-## Licencia
-
-Proyecto personal de portafolio profesional.
+Frontend: React, Next.js, Tailwind CSS. Backend: Laravel, Node.js + TypeScript, PostgreSQL. Otras herramientas según el proyecto: Prisma, Redis, Docker.
